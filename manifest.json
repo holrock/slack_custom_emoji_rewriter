@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "slack custom emoji rewriter",
+  "description": "rewrite slack custom emoji",
+  "version": "1.0",
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.slack-edge.com/"
+  ]
+}
